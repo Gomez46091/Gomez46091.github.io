@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+<html>
+    <head> 
+        <title>Website Title</title>
+        <style>
+          body {
+              background: rgba(17, 17, 86, 0.701);
+              color: rgb(0, 0, 0);
+              padding: 10px;
+              font-family: arial;
+          }
+          #all-contents {
+              max-width: 800px;
+              margin: auto;
+          }
+      
+          /* navigation menu */
+          nav {
+              background: rgb(113, 51, 12);
+              margin: 0 auto;
+              margin-bottom: 20px;
+              display: flex;
+              padding: 10px;
+          }
+          h1 {
+              display: flex;
+              align-items: center;
+              color: rgba(255, 255, 255, 0.233);
+              flex: 1;
+              margin: 0;
+          }
+          #nav-ul {
+              list-style-image: none;
+          }
+          .nav-li {
+              display: inline-block;
+              padding: 0 10px;
+          }
+          a {
+              text-decoration: none;
+              color: #fff;
+          }
+      
+          /* main container area beneath menu */
+          main {
+              background: rgb(84, 84, 84);
+              display: flex;
+          }
+          .sidebar {
+              margin-right: 25px;
+              padding: 10px;
+          }
+          .sidebar-img {
+              width: 200px;
+          }
+          .content {
+              flex: 1;
+              padding: 15px;
+          }
+          #interests {
+              border: 4px rgb(41, 88, 128) ridge;
+              padding: 8px;
+          }
+          h2, h3 {
+              margin: 0px;
+          }
+      </style>
+      
+    </head>
+    <body>
+      <!-- All content goes here -->
+        <div id="all-contents"> 
+            <nav> 
+                <h1>Website Title</h1>
+                <ul>
+                    <li class="nav-li">
+                      <a href="index.html"> Home </a>
+                    </li>
+                    <li>
+                      <a href="portfolio.html"> Portfolio </a>
+                    </li class="nav-li">
+                </ul>
+            
+            </nav>
+            <main>
+             <!-- Sidebar section -->
+                 <div class="sidebar"> 
+                    <h2>Angel Gomez</h2>
+                    <p>Student at EA High</p>
+                    <img class="sidebar-img" src="data:image/jpeg;base64,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">
+                </div>
+             <!-- Content section -->
+                  <div class="content"> <!-- Interests section -->
+                    <div id="interests">
+                        <h3>Interests</h3>
+                        <ul>
+                            <li>Playing Guitar</li>
+                            <li>Video Games</li>
+                            <li>Music</li>
+                        </ul>
+                    </div>                    
+                  </div>
+
+            </main>
+        </div>
+      <!-- Content section -->
+    </body>
+</html>
